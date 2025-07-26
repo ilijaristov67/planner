@@ -36,7 +36,11 @@
             "Modules\\Admin\\": "Modules/Admin/app/",
             "Modules\\Admin\\Database\\": "Modules/Admin/database/factories/",
             "Modules\\Admin\\Database\\Seeders\\": "Modules/Admin/database/seeders/",
-            "Modules\\Admin\\Tests\\": "Modules/Admin/tests/"
+            "Modules\\Admin\\Tests\\": "Modules/Admin/tests/",
+            "Modules\\Product\\": "Modules/Product/app/",
+            "Modules\\Product\\Database\\": "Modules/Product/database/factories/",
+            "Modules\\Product\\Database\\Seeders\\": "Modules/Product/database/seeders/",
+            "Modules\\Product\\Tests\\": "Modules/Product/tests/"
         }
     },
     "autoload-dev": {
