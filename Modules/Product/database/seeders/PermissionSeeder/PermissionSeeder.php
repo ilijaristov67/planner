@@ -16,7 +16,7 @@ class PermissionSeeder extends Seeder
 
         collect(['-create', '-update', '-read', '-delete', '-upsert'])
             ->crossJoin(collect([
-                //
+                ''
             ]))
             ->map(function ($crudPermission) {
                 return static::MODULE_NAME.$crudPermission[1].$crudPermission[0];
