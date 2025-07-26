@@ -1,18 +1,18 @@
 <?php
 
-namespace Modules\Admin\Http\Controllers;
+namespace {{ namespace }};
 
-use App\Http\Controllers\Controller;
+use {{ rootNamespace }}Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AdminController extends Controller
+class {{ class }} extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('admin::index');
+        //
     }
 
     /**
@@ -20,37 +20,46 @@ class AdminController extends Controller
      */
     public function create()
     {
-        return view('admin::create');
+        //
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request) {}
+    public function store(Request $request)
+    {
+        //
+    }
 
     /**
-     * Show the specified resource.
+     * Display the specified resource.
      */
-    public function show($id)
+    public function show(string $id)
     {
-        return view('admin::show');
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit($id)
+    public function edit(string $id)
     {
-        return view('admin::edit');
+        //
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, $id) {}
+    public function update(Request $request, string $id)
+    {
+        //
+    }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy($id) {}
+    public function destroy(string $id)
+    {
+        //
+    }
 }
